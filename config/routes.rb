@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'project/show'
+  get 'project/new'
+  get 'project/index'
+  get 'homepages/show'
+  devise_for :users
+  root 'homepage#show'
 end
