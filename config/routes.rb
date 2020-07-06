@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'project/index'
   get 'homepages/show'
   devise_for :users
-  root 'homepage#show'
+  root 'homepages#show'
 end
