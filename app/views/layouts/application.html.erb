@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>ProfessionalPortfolio</title>
+    <title>Full-Stack Web Developer Personal Portfolio</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= render 'layouts/meta_tags' %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <%= render 'layouts/flash_messages' %>
     <%= yield %>
   </body>
 </html>
