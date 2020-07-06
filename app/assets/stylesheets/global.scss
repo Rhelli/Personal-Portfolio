@@ -18,9 +18,8 @@ body {
   text-rendering: optimizeLegibility;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   transform: translate3d(0,0,0);
-  background-color: #dfdfdf;
-  color: #202020;
-  background-color: #0F4336;
+  color: #dfdfdf;
+  background-color: #2C3E50;
 }
 
 h1,
@@ -41,5 +40,30 @@ a {
   &:hover {
     color: #0B5345;
     text-decoration: none;
+  }
+}
+
+// NAVBAR --------------------------------------------------------------------------------------------//
+nav {
+  background-color: #0B5345;
+  .nav-home {
+    img {
+      width: 40px;
+      height: auto;
+      margin: 0 0 0 40px;
+    }
+  }
+
+  .nav-list {
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    a {
+      color: #dfdfdf;
+      font-weight: 700;
+      font-size: 20px;
+
+    }
   }
 }

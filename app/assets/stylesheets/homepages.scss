@@ -1,3 +1,12 @@
 main {
-  
+  .profile-image {
+    img {
+      height: 600px;
+      width: 600px;
+      width: auto;
+      border: 1px solid #CA6F1E;
+      border-radius: 100% 10% 10% 100%;
+      background-color: #EB984E;
+    }
+  }
 }
