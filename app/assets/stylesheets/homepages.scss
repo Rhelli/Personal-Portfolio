@@ -39,7 +39,7 @@ main {
 
       h1 {
         font: 700 126px/126px 'Lato', monospace;
-        text-shadow: #090E2F 1px 1px 12px;
+        text-shadow: #090E2F 2px 2px 12px;
       }
     }
 
@@ -83,24 +83,47 @@ main {
     }
   }
 
+  .home-right {
+    padding: 140px 20px 20px 40px;
+  }
+
   .intro-text {
     text-align: left;
-    width: 80%;
+    width: 70%;
     padding: 20px;
 
-    .intro-name {
-      h1 {
-        font: 700 126px/126px 'Lato', monospace;
-      }
-    }
-
     .intro-about {
-      h2 {
-        font-size: 36px;
+      .job-desc {
+        font: 700 24px/32px 'Palanquin';
+        color: #c70039;
+        text-decoration: underline;
+        text-decoration-thickness: from-font;
+      }
+
+      .intro-blurb {
+        font: 700 40px/48px 'Palanquin';
       }
 
       h3 {
-        font: 300 22px/22px 'Palanquin';
+        font: 300 22px/28px 'Palanquin';
+      }
+
+      .intro-links {
+        width: 100%;
+        padding: 20px;
+        
+        li {
+          margin-bottom: 15px;
+
+          svg {
+            margin-right: 10px;
+          }
+
+          a {
+            font: 500 20px/20px 'Palanquin';
+            color: #c70039;
+          }
+        }
       }
     }
   }
