@@ -314,3 +314,22 @@
     }
   }
 }
+
+// PROJECTS SECTION
+.projects-section {
+  height: 100vh;
+  border-top: 2px solid #dfdfdf;
+  background: image-url('60-lines'), #111d5e;
+  padding: 20px 40px;
+  .projects-title {
+    text-align: center;
+    h1 {
+      font-size: 28px;
+      color: #c70039;
+    }
+    h2 {
+      font-size: 68px;
+      margin-bottom: 20px;
+    }
+  }
+}
