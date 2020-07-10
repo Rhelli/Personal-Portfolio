@@ -335,14 +335,71 @@
   
   .project-container {
     margin: 20px 0px;
+    height: 700px;
+    width: 95%;
     img {
       height: 700px;
       width: auto;
     }
 
     .project-info {
-      height: 700px;
-      background-color: slateblue;
+      height: 100%;
+      max-width: 30%;
+      padding: 30px 20px;
+      border: 2px solid #dfdfdf;
+      border-left: none;
+      overflow: hidden;
+
+      h2 {
+        font: 700 38px/38px 'Palanquin', monospace;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #c70039;
+      }
+
+      p {
+        font: 400 20px/20px 'Palanquin', monospace;
+        margin-bottom: 30px;
+      }
+
+      .project-links {
+        font-size: 26px;
+        border: 1px solid #dfdfdf;
+        a {
+          text-align: left;
+          background-color: #dfdfdf;
+          color: #111d5e;
+          padding: 10px 20px;
+          width: 180px;
+          margin: 10px 0;
+
+          svg {
+            margin-right: 15px;
+          }
+        }
+      }
+
+      .project-tech-list {
+        border: 2px solid #dfdfdf;
+        padding: 30px 20px;
+
+        li {
+          display: inline-block;
+          padding: 4px 3px 12px 3px;
+          background: #6633FF;
+          border-radius: 4px;
+          margin: 10px;
+
+          p {
+            font: 700 18px/18px 'Palanquin', monospace;
+            background-color: #111d5e;
+            color: #c70039;
+            padding: 2px 8px 4px 8px;
+            margin-bottom: 0;
+            border-radius: 6px;
+          }
+        }
+      }
     }
   }
 }
