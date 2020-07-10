@@ -332,4 +332,17 @@
       margin-bottom: 20px;
     }
   }
+  
+  .project-container {
+    margin: 20px 0px;
+    img {
+      height: 700px;
+      width: auto;
+    }
+
+    .project-info {
+      height: 700px;
+      background-color: slateblue;
+    }
+  }
 }
